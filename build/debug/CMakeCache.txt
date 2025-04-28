@@ -231,6 +231,26 @@ CONAN_INSTALL_ARGS:STRING=--build=missing
 //The directory containing a CMake configuration file for Catch2.
 Catch2_DIR:PATH=Catch2_DIR-NOTFOUND
 
+//Directory under which to collect all populated content
+FETCHCONTENT_BASE_DIR:PATH=/Users/juliusspindler/Informatik 2 Fork/inf2-material/build/debug/_deps
+
+//Disables all attempts to download or update content and assumes
+// source dirs already exist
+FETCHCONTENT_FULLY_DISCONNECTED:BOOL=OFF
+
+//Enables QUIET option for all content population
+FETCHCONTENT_QUIET:BOOL=ON
+
+//When not empty, overrides where to find pre-populated content
+// for Catch2
+FETCHCONTENT_SOURCE_DIR_CATCH2:PATH=
+
+//Enables UPDATE_DISCONNECTED behavior for all content population
+FETCHCONTENT_UPDATES_DISCONNECTED:BOOL=OFF
+
+//Enables UPDATE_DISCONNECTED behavior just for population of Catch2
+FETCHCONTENT_UPDATES_DISCONNECTED_CATCH2:BOOL=OFF
+
 //Value Computed by CMake
 Informatik 2_BINARY_DIR:STATIC=/Users/juliusspindler/Informatik 2 Fork/inf2-material/build/debug
 
